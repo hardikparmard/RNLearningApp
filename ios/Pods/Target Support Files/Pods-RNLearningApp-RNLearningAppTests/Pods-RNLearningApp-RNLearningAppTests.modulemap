@@ -1,6 +1,0 @@
-module Pods_RNLearningApp_RNLearningAppTests {
-  umbrella header "Pods-RNLearningApp-RNLearningAppTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
