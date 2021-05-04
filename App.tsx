@@ -73,7 +73,7 @@ const Section: React.FC<{
       <View style={styles.bottomContainer}>
         <View style={styles.leftView}>
           <View style={styles.teamCountContainer}>
-            <Text style={styles.teamCountValue}>2</Text>
+            <Text style={styles.teamCountValue}>3</Text>
             <Text style={styles.teamCountText}>Teams</Text>
           </View>
           <View style={styles.contestCountContainer}>
@@ -134,6 +134,7 @@ const styles = StyleSheet.create({
     },
     shadowOpacity: 0.25,
     shadowRadius: 4,
+    elevation: 5,
   },
   sectionTitle: {
     marginTop: 8,
